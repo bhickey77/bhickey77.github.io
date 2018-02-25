@@ -4,3 +4,15 @@ p {
 h3 {
   text-align: right;
 }
+
+.location {
+
+}
+
+.position {
+  font-style: italic;
+}
+
+.organization {
+ font-weight: bold; 
+}
