@@ -20,3 +20,9 @@ h3 {
 .organization {
  font-weight: bold; 
 }
+
+.date {
+ position: absolute;
+ text-align: right;
+}
+
