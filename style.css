@@ -22,7 +22,7 @@ h3 {
 }
 
 .date {
- position: absolute;
+ float: right;
  text-align: right;
 }
 
