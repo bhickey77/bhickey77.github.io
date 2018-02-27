@@ -30,4 +30,6 @@ h3 {
  background-color: DAECFF
 }
 
-
+.container {
+ width: 900px;
+}
