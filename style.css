@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 title {
- text-align: right; 
+ text-align: right;
 }
 
+body {
+  font-family: 'Nunito';
+}
 p {
   text-align: right;
 }
@@ -18,18 +23,24 @@ h3 {
 }
 
 .organization {
- font-weight: bold; 
+ font-weight: bold;
 }
 
 .date {
- block: inline-block;
- text-align: right;
+ float: right;
 }
 
 .resumeItem {
- background-color: DAECFF
+ background-color: #edf3ff;
+ border-radius: 12px;
+ padding: 6px;
+ margin-top: 5px;
 }
 
 .container {
  width: 900px;
+ margin: auto;
+}
+
+.sectionTitle {
 }
