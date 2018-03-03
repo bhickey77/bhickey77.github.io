@@ -6,21 +6,27 @@ title {
 
 body {
   font-family: 'Nunito';
+  background-color: #fdfdfd;
 }
 p {
   text-align: right;
-}'
+}
 
-h1 {
-  display: inline;
+.name {
   margin-bottom: 0px;
+  width: 900px;
+  color: #edf3ff;
+  background-color: #475f8e;
+  width: 700px;
+  padding-left: 4px;
 }
 .personalInfo {
   text-align: right;
-  float: right;
-  width: 900px;
   background-color: inherit;
   margin-top: -60px;
+  padding: 4px;
+  color: #edf3ff;
+  background-color: #475f8e;
 }
 
 .location {
