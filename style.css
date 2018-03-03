@@ -9,9 +9,18 @@ body {
 }
 p {
   text-align: right;
+}'
+
+h1 {
+  display: inline;
+  margin-bottom: 0px;
 }
-h3 {
+.personalInfo {
   text-align: right;
+  float: right;
+  width: 900px;
+  background-color: inherit;
+  margin-top: -60px;
 }
 
 .location {
@@ -33,13 +42,12 @@ h3 {
 .resumeItem {
  background-color: #edf3ff;
  margin-top: 12px;
- border-radius: 3px;
+ padding: 4px;
 }
 
 .resumeItem2 {
  background-color: #edf3ff;
- margin-top: 0px;
- border-radius: 3px;
+ margin-top: 40px;
 }
 
 .container {
@@ -72,9 +80,9 @@ h3 {
 }
 
 .titleContainer {
-  margin-top: 19px;
+  margin-top: 21px;
   width: 48px;
-  height: 678px;
+  height: 744px;
   margin-left: 12px;
   float: right;
   background-color: #475f8e;
@@ -84,7 +92,7 @@ h3 {
 .titleContainer2 {
   margin-top: 12px;
   width: 48px;
-  height: 328px;
+  height: 350px;
   margin-left: 12px;
   float: right;
   background-color: #475f8e;
@@ -92,7 +100,7 @@ h3 {
 }
 
 .titleContainer3 {
-  margin-top: 14px;
+  margin-top: 20px;
   width: 48px;
   height: 70px;
   margin-left: 12px;
