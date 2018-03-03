@@ -32,9 +32,8 @@ h3 {
 
 .resumeItem {
  background-color: #edf3ff;
- border-radius: 12px;
- margin-top: 5px;
- padding-bottom: 6px;
+ margin-top: 12px;
+ border-radius: 3px;
 }
 
 .container {
@@ -49,5 +48,57 @@ h3 {
   background-color: #475f8e;
   color: #edf3ff;
   padding: 6px;
-  border-radius: 12px;
+}
+
+.experienceContainer {
+  width: 840px;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.experienceContainer {
+  width: 840px;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.titleContainer {
+  margin-top: 12px;
+  width: 48px;
+  height: 678px;
+  margin-left: 12px;
+  float: right;
+  background-color: #475f8e;
+  padding-top: 427.5px;
+}
+
+.titleContainer2 {
+  margin-top: 12px;
+  width: 48px;
+  height: 90px;
+  margin-left: 12px;
+  float: right;
+  background-color: #475f8e;
+  padding-top: 40px;
+}
+
+.titleTransform {
+  -webkit-transform: rotate(90deg);
+  background-color: #475f8e;
+  color: #edf3ff;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 26px;
+}
+
+.b {
+  list-style-type: square;
+  margin-left: 50px;
+}
+
+.engagementExamples {
+  font-weight: bold;
+  margin-top: 6px;
 }
