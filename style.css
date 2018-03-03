@@ -36,6 +36,12 @@ h3 {
  border-radius: 3px;
 }
 
+.resumeItem2 {
+ background-color: #edf3ff;
+ margin-top: 0px;
+ border-radius: 3px;
+}
+
 .container {
  width: 900px;
  margin: auto;
@@ -57,15 +63,16 @@ h3 {
   border-radius: 6px;
 }
 
-.experienceContainer {
+.experienceContainer2 {
   width: 840px;
   float: left;
   margin-bottom: 10px;
   border-radius: 6px;
+  margin-top: -30px;
 }
 
 .titleContainer {
-  margin-top: 12px;
+  margin-top: 19px;
   width: 48px;
   height: 678px;
   margin-left: 12px;
@@ -77,12 +84,23 @@ h3 {
 .titleContainer2 {
   margin-top: 12px;
   width: 48px;
-  height: 90px;
+  height: 328px;
+  margin-left: 12px;
+  float: right;
+  background-color: #475f8e;
+  padding-top: 160px;
+}
+
+.titleContainer3 {
+  margin-top: 14px;
+  width: 48px;
+  height: 70px;
   margin-left: 12px;
   float: right;
   background-color: #475f8e;
   padding-top: 40px;
 }
+
 
 .titleTransform {
   -webkit-transform: rotate(90deg);
