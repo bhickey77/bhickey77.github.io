@@ -22,8 +22,7 @@ p {
 .nameHeader {
   background-color: var(--dark-color2);
   color: var(--light-color);
-  position: fixed;
-  width: inherit;
+  position:sticky;
   top: 0;
 }
 
@@ -33,24 +32,26 @@ p {
   background-color: var(--dark-color2);
   color: var(--light-color);
   margin-bottom: 12px;
-  height: 30px;
-  padding-top: 7px;
+  height: 40px;
+  padding-top: 10px;
 }
 
 .name {
   margin-bottom: 0px;
-  width: 900px;
   color: var(--light-color);
-  background-color: var(--dark-color);
-  width: 700px;
+  background-color: var(--dark-color2);
   padding-left: 4px;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .personalInfo {
   text-align: right;
-  margin-top: -60px;
   padding: 4px;
   background-color: inherit;
   color: inherit;
+  float: right;
+  margin-top: -75px;
 }
 
 .position {
@@ -127,13 +128,9 @@ p {
   box-shadow: 2px 2px;
 }
 
-.button::before {
-  font-family: 'Glyphicons Halflins';
-  content: "\e114";
-  float: right;
-  transition: all 0.5s;
+.button:focus{
+  outline: none;
 }
-
 
 .botton:hover {
   background-color: var(--dark-color);
@@ -141,4 +138,25 @@ p {
 
 .card {
   width: 95%;
+  outline-style: none;
+  outline-color: var(--light-color);
+  background-color: inherit;
+  color: inherit;
+}
+
+.collapse.show {
+  width: 95%;
+}
+
+.collapse {
+  width: 95%;
+}
+
+.collapsing {
+  width: 95%;
+}
+
+.glyphicon {
+  margin-left: -25px;
+  color: var(--light-color);
 }

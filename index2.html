@@ -3,14 +3,8 @@
   <head>
     <title>Bill Hickey: future developer</title>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <!-- Latest compiled and minified CSS Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Latest compiled and minified CSS Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript Bootstrap-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
     <link rel="icon" type="ico" href="favicon.ico">
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style3.css">
@@ -19,16 +13,12 @@
     <div class="container">
       <div class="nameHeader">
         <h1 class="name">Bill Hickey</h1>
-        <div class="personalInfo">
+        <span class="personalInfo">
            (651)233-8981 <br />1795 Pinehurst Avenue <br /> Saint Paul, MN 55116
-         </div>
+         </span>
       </div>
-      <div class="experienceContainer" style="margin-top:92px;">
+      <div class="experienceContainer" style="margin-top:10px;">
         <div class="sectionHeader">EDUCATION</div>
-        <div class="resumeItem">
-          <div style="font-weight:bold">Certified Public Accountant</div>
-          <div>State of Massachusetts</div>
-        </div>
         <div class="resumeItem">
           <span style="font-weight:bold">Boston College - </span>
           <span>Wallace E. Carroll School of Management - Chestnut Hill, MA</span>
@@ -43,13 +33,17 @@
           <ul>
             <li>Completed an online class learning the basics of web development through the Ruby on Rails framework</li>
             <li>Developed an application utilizing the a MVC design pattern to create a Twitter clone application involving user authentication, microposting, and follower/following relationships</li>
-            <li>Created automated testing to allow for a test drive development approach</li>
+            <li>Created automated testing to allow for a test driven development approach</li>
             <li>Upon completion of the course experimented with additional site features including: custom styling and website UX and a squash club directory with the ability for user to add clubs and see clubs near them</li>
             <li class="b">Utilized simple Javascript sprinkles and a Google Maps API to allow autocompletion of user address inputs</li>
             <li class="b">Incorporated the Geocoder Ruby Gem for comparison of user location with location of clubs in the database</li>
             <li>Key technologies employed throughout project: Git, Ruby, Rails, Bootstrap, Sass, CSS, HTML, Javascript, Ajax, Google Maps API, Geocoder Ruby Gem</li>
           </ul>
           <a href="http://www.billhickey.io">Twitter clone website: blast!</a><span style="margin-left: 15px" "font-style:italic">Might take a minute for the server to wake up -- doesn't get a lot of traffic!</span>
+        </div>
+        <div class="resumeItem">
+          <div style="font-weight:bold">Certified Public Accountant</div>
+          <div>State of Massachusetts</div>
         </div>
       </div>
       <div class="experienceContainer">
@@ -66,9 +60,10 @@
             <li>Recognized with four Encore awards for exceptional performance on client engagements</li>
             <li>Examples of engagement contributions:</li>
             <button class="button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                Complete project management: buy-side FDD for private equity portfolio company</button></br>
+                Complete project management: buy-side FDD for private equity portfolio company</button>
+              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+              </br>
               <div class="collapse" id="collapseExample">
-                 <div class="card card-body">
                     <li class="c">With the oversight of a director, investigated key areas of concern and prepared a financial due diligence report for the
                       pending acquisition of a SaaS-based target </li>
                     <li class="c">Created a data book to facilitate conversations with management and for preparation of quality of earnings, net working
@@ -78,12 +73,12 @@
                       translation based on spot rates and a constant currency presentation</li>
                     <li class="c">Inquired about the Company’s capitalization policies with respect to commissions cost and internal software development
                       costs to highlight differences between the cash outlays required and GAAP expense recognition</li>
-                  </div>
               </div>
             <button class="button" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">Complex data analysis: buy-side FDD by a major private equity firm
-            </button></br>
+            </button>
+            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+            </br>
               <div class="collapse" id="collapseExample2">
-                <div class="card card-body">
                   <li class="c">Leveraged several contribution margin databases of an $830 million packaged consumer goods label manufacturer to
                     create various product and customer profitability analyses in an effort to identify the company’s key business drivers</li>
                   <li class="c">Developed an Excel workbook to efficiently and flexibly cut data for any combination for the target company’s 18 different
@@ -93,7 +88,6 @@
                     data from a variety of source formats</li>
                   <li class="c">Developed detailed income statements with the ability to pull data for different combinations of cost centers accurately and
                     with minimal incremental effort</li>
-                </div>
               </div>
           </ul>
         </div>
