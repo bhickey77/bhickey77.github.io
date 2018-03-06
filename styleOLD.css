@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+title {
+ text-align: right;
+}
+
+body {
+  font-family: 'Nunito';
+  background-color: #fdfdfd;
+}
+p {
+  text-align: right;
+}
+
+.name {
+  margin-bottom: 0px;
+  width: 900px;
+  color: #edf3ff;
+  background-color: #475f8e;
+  width: 700px;
+  padding-left: 4px;
+}
+.personalInfo {
+  text-align: right;
+  background-color: inherit;
+  margin-top: -60px;
+  padding: 4px;
+  color: #edf3ff;
+  background-color: #475f8e;
+}
+
+.location {
+
+}
+
+.position {
+  font-style: italic;
+}
+
+.organization {
+ font-weight: bold;
+}
+
+.date {
+ float: right;
+}
+
+.resumeItem {
+ background-color: #edf3ff;
+ margin-top: 12px;
+ padding: 4px;
+}
+
+.resumeItem2 {
+ background-color: #edf3ff;
+ margin-top: 40px;
+}
+
+.container {
+ width: 900px;
+ display: block;
+ margin: auto;
+
+}
+
+.sectionTitle {
+}
+
+.itemTitle {
+  background-color: #475f8e;
+  color: #edf3ff;
+  padding: 6px;
+}
+
+.experienceContainer {
+  width: 840px;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.experienceContainer2 {
+  width: 840px;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  margin-top: -30px;
+}
+
+.titleContainer {
+  margin-top: 21px;
+  width: 48px;
+  height: 744px;
+  margin-left: 12px;
+  float: right;
+  background-color: #475f8e;
+  padding-top: 427.5px;
+}
+
+.titleContainer2 {
+  width: 48px;
+  margin-left: 12px;
+  height: 100%;
+  float: right;
+  background-color: #475f8e;
+  display: table-column;
+}
+
+.titleContainer3 {
+  margin-top: 20px;
+  width: 48px;
+  height: 70px;
+  margin-left: 12px;
+  float: right;
+  background-color: #475f8e;
+  padding-top: 40px;
+}
+
+
+.titleTransform {
+  -webkit-transform: rotate(90deg);
+  background-color: #475f8e;
+  color: #edf3ff;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 26px;
+  width: 100%;
+}
+
+.b {
+  list-style-type: square;
+  margin-left: 50px;
+}
+
+.engagementExamples {
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.ContainerWSidebar {
+  display: inline-block;
+  height: 100%;
+
+}
