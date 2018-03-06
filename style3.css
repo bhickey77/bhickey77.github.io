@@ -18,9 +18,6 @@ p {
   text-align: right;
 }
 
-ul {
-  margin-top: 5px;
-}
 
 .nameHeader {
   background-color: var(--dark-color2);
@@ -101,7 +98,28 @@ ul {
   margin-left: 50px;
 }
 
+.c {
+  list-style-type: square;
+  margin-left: 50px;
+}
+
 .engagementExamples {
   font-weight: bold;
   margin-top: 6px;
+}
+
+#example1 {
+  display: none;
+}
+
+#example2 {
+  display: none;
+}
+
+.button {
+  background-color: var(--dark-color2);
+  color: var(--light-color);
+  font-size: inherit;
+  border-radius: 2px;
+  outline: none;
 }
