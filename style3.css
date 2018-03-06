@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+:root {
+  --dark-color: #475f8e;
+  --dark-color2: #334568;
+  --light-color: #edf3ff;
+}
+
 title {
  text-align: right;
 }
@@ -12,25 +18,42 @@ p {
   text-align: right;
 }
 
+ul {
+  margin-top: 5px;
+}
+
+.nameHeader {
+  background-color: var(--dark-color2);
+  color: var(--light-color);
+  position: fixed;
+  width: inherit;
+  top: 0;
+}
+
+.sectionHeader {
+  text-align: center;
+  vertical-align: middle;
+  background-color: var(--dark-color2);
+  color: var(--light-color);
+  margin-bottom: 12px;
+  height: 30px;
+  padding-top: 7px;
+}
+
 .name {
   margin-bottom: 0px;
   width: 900px;
-  color: #edf3ff;
-  background-color: #475f8e;
+  color: var(--light-color);
+  background-color: var(--dark-color);
   width: 700px;
   padding-left: 4px;
 }
 .personalInfo {
   text-align: right;
-  background-color: inherit;
   margin-top: -60px;
   padding: 4px;
-  color: #edf3ff;
-  background-color: #475f8e;
-}
-
-.location {
-
+  background-color: inherit;
+  color: inherit;
 }
 
 .position {
@@ -46,86 +69,31 @@ p {
 }
 
 .resumeItem {
- background-color: #edf3ff;
+ background-color: var(--light-color);
  margin-bottom: 12px;
- padding: 4px;
+ padding: 2px;
  width: inherit;
 
-}
-
-.resumeItem2 {
- background-color: #edf3ff;
- margin-top: 40px;
 }
 
 .container {
  width: 900px;
  display: block;
  margin: auto;
-
 }
 
 .sectionTitle {
 }
 
 .itemTitle {
-  background-color: #475f8e;
-  color: #edf3ff;
-  padding: 6px;
+  background-color: var(--light-color);
+  color: black;
+  padding: 3px;
 }
 
 .experienceContainer {
-  width: 840px;
-  float: left;
   margin-bottom: 10px;
   border-radius: 6px;
-}
-
-.experienceContainer2 {
-  width: 840px;
-  float: left;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  margin-top: -30px;
-}
-
-.titleContainer {
-  margin-top: 21px;
-  width: 48px;
-  height: 744px;
-  margin-left: 12px;
-  float: right;
-  background-color: #475f8e;
-  padding-top: 427.5px;
-}
-
-.titleContainer2 {
-  width: 48px;
-  margin-left: 12px;
-  height: 100%;
-  float: right;
-  background-color: #475f8e;
-}
-
-.titleContainer3 {
-  margin-top: 20px;
-  width: 48px;
-  height: 70px;
-  margin-left: 12px;
-  float: right;
-  background-color: #475f8e;
-  padding-top: 40px;
-}
-
-
-.titleTransform {
-  -webkit-transform: rotate(90deg);
-  background-color: #475f8e;
-  color: #edf3ff;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 26px;
-  width: 100%;
 }
 
 .b {
@@ -136,19 +104,4 @@ p {
 .engagementExamples {
   font-weight: bold;
   margin-top: 6px;
-}
-
-.ContainerWSidebar {
-  display: inline-block;
-  height: 100%;
-
-}
-
-.titleTrans {
-  -webkit-transform: rotate(90deg);
-  -webkit-transform-origin: 14%;
-  width: 100px;
-  position: relative;
-  top: 40%;
-  color: #edf3ff;
 }
