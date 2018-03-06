@@ -47,8 +47,10 @@ p {
 
 .resumeItem {
  background-color: #edf3ff;
- margin-top: 12px;
+ margin-bottom: 12px;
  padding: 4px;
+ width: inherit;
+
 }
 
 .resumeItem2 {
@@ -103,7 +105,6 @@ p {
   height: 100%;
   float: right;
   background-color: #475f8e;
-  display: table-column;
 }
 
 .titleContainer3 {
@@ -141,4 +142,13 @@ p {
   display: inline-block;
   height: 100%;
 
+}
+
+.titleTrans {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 14%;
+  width: 100px;
+  position: relative;
+  top: 40%;
+  color: #edf3ff;
 }

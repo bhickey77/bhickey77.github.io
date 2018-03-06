@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.flexbox .col {
+}
+
+.flexbox .col:nth-child(1) {
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+  width: 820px;
+}
+
+.flexbox .col:nth-child(2) {
+  background: #475f8e;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 30px;
+  margin-left: 20px;
+}
+
 title {
  text-align: right;
 }
@@ -47,8 +73,10 @@ p {
 
 .resumeItem {
  background-color: #edf3ff;
- margin-top: 12px;
+ margin-bottom: 12px;
  padding: 4px;
+ width: inherit;
+
 }
 
 .resumeItem2 {
@@ -103,7 +131,6 @@ p {
   height: 100%;
   float: right;
   background-color: #475f8e;
-  display: table-column;
 }
 
 .titleContainer3 {
@@ -141,4 +168,13 @@ p {
   display: inline-block;
   height: 100%;
 
+}
+
+.titleTrans {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 14%;
+  width: 100px;
+  position: relative;
+  top: 40%;
+  color: #edf3ff;
 }
