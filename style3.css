@@ -74,7 +74,6 @@ p {
 }
 
 .container {
- width: 900px;
  display: block;
  margin: auto;
 }
@@ -101,6 +100,7 @@ p {
 .c {
   list-style-type: square;
   margin-left: 50px;
+  width: 95%;
 }
 
 .engagementExamples {
@@ -122,4 +122,23 @@ p {
   font-size: inherit;
   border-radius: 2px;
   outline: none;
+  width: 95%;
+  text-align: left;
+  box-shadow: 2px 2px;
+}
+
+.button::before {
+  font-family: 'Glyphicons Halflins';
+  content: "\e114";
+  float: right;
+  transition: all 0.5s;
+}
+
+
+.botton:hover {
+  background-color: var(--dark-color);
+}
+
+.card {
+  width: 95%;
 }
