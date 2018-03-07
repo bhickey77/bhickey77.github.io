@@ -41,9 +41,9 @@ p {
   color: var(--light-color);
   background-color: var(--dark-color2);
   padding-left: 4px;
-  margin-top: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 45px;
 }
 .personalInfo {
   text-align: right;
@@ -172,4 +172,13 @@ p {
   .container {
     width: 100%;
   }
+}
+
+.tContainer{
+  margin-left: 250px;
+}
+
+
+.typer {
+  data-words: "Bill Hickey";
 }

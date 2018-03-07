@@ -1,3 +1,4 @@
+/* Vanilla JS hide function - replaced by Jquery below
 function hideExamples() {
   var x = document.getElementById("example1");
   if (x.style.display === "none") {
@@ -5,8 +6,9 @@ function hideExamples() {
   } else {
       x.style.display = "none";
   }
-}
+} */
 
+/* Vanilla JS hide function - had to copy the first because I couldn't figure out how to apply to seperate elements
 function hideExamples2() {
   var x = document.getElementById("example2");
   if (x.style.display === "none") {
@@ -14,8 +16,10 @@ function hideExamples2() {
   } else {
       x.style.display = "none";
   }
-}
+} */
 
+
+// Collapse function
 $(document).ready(function() {
   $( ".button" ).click( function() {
       var self   = $(this),
@@ -26,6 +30,7 @@ $(document).ready(function() {
       } else {
         index = 1;
       }
+
     console.log($(".glyphicon-chevron-down").eq(index).css('transform'));
     if ($(".glyphicon-chevron-down").eq(index).css('transform') == 'none') {
       $(".glyphicon-chevron-down").eq(index).css({'transform': 'rotate(-180deg)'});
