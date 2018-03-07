@@ -160,3 +160,9 @@ p {
   margin-left: -25px;
   color: var(--light-color);
 }
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
