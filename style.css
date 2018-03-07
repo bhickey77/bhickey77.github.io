@@ -126,6 +126,7 @@ p {
   width: 95%;
   text-align: left;
   box-shadow: 2px 2px;
+  overflow: hidden;
 }
 
 .button:focus{
@@ -157,8 +158,14 @@ p {
 }
 
 .glyphicon {
-  margin-left: -25px;
   color: var(--light-color);
+  float: right;
+}
+
+#spinner {
+ -moz-transition: transform .5s;
+ -webkit-transition: transform .5s;
+ transition: transform .5s;
 }
 
 @media (max-width: 767px) {
