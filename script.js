@@ -39,3 +39,15 @@ $(document).ready(function() {
     };
   });
 });
+
+$(function(){
+  $(".typeType").typed({
+    strings: [ "Hi!, I'm Bill", "former M+A consultant in Boston", " current software developer in Saint Paul, MN","I would love to hear from you! --->"],
+    typeSpeed: 13,
+    backDelay: 900, // pause before backspacing
+    loop: false,
+    backSpeed: .1,
+    smartBackspace: true,
+
+  });
+});
