@@ -18,12 +18,21 @@ p {
   text-align: right;
 }
 
+.bar {
+  background-color: black;
+  height: 128px;
+  margin-bottom: -128px;
+  position: sticky;
+  top: 0;
+  background-color: var(--dark-color2);
+}
 
 .nameHeader {
   background-color: var(--dark-color2);
   color: var(--light-color);
   position:sticky;
   top: 0;
+  width: -webkit-fill-available;
 }
 
 .sectionHeader {
