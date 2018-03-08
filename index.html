@@ -11,6 +11,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
     <link rel="icon" type="ico" href="favicon.ico">
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.6/typed.min.js"></script>
+<script>
+	$(function(){
+		$(".typeType").typed({
+			strings: [ "Hi!, I'm Bill", "former mergers and acquisitions consultant in Boston", " current software developer in Saint Paul, MN","I would love to hear from you! "],
+			typeSpeed: 13,
+      backDelay: 900, // pause before backspacing
+      loop: false,
+      backSpeed: .25,
+      smartBackspace: true,
+
+		});
+	});
+</script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -18,9 +32,7 @@
       <div class="nameHeader">
         <h1 class="name">Bill Hickey</h1>
           <div class="tContainer">
-              <span class="typer" data-deleteDelay="1000" id="main" data-words="Hi!, I am Bill,former mergers and acquisitions consultant in Boston,current developer in Saint Paul,I would love to hear from you! -->" data-colors="#edf3ff" data-delay="60" data-deleteDelay="700"></span>
-              <span class="cursor" data-cursorDisplay="|" data-owner="main"></span>
-              </span>
+            <span class="typeType"></span>
           </div>
         <span class="personalInfo">
            <strong>contact me</strong></br></br>bhickey77@gmail.com</br>(651)233-8981
