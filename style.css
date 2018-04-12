@@ -30,7 +30,7 @@ p {
 .nameHeader {
   background-color: var(--dark-color2);
   color: var(--light-color);
-  position:sticky;
+  position: sticky;
   top: 0;
   width: -webkit-fill-available;
 }
